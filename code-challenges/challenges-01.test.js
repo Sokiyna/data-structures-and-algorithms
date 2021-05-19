@@ -148,7 +148,6 @@ const createList = (availableItems) => {
 
 };
 
-};
 
 /* ------------------------------------------------------------------------------------------------
 STRETCH - CHALLENGE 7
@@ -166,25 +165,7 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
-  
-    let arrFunction = [];
-    arr.forEach(number => {
-      if (number % 3 === 0 & number % 5 === 0) {
-        arrFunction.push('Fizz Buzz');
-      }
-      else if (number % 3 === 0) {
-        arrFunction.push('Fizz');
-      }
-      else if (number % 5 === 0) {
-        arrFunction.push('Buzz');
-      }
-      else {
-        arrFunction.push(number);
-      }
-    });
-    return arrFunction;
-  };
-  
+
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
