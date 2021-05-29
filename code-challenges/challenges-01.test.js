@@ -11,7 +11,7 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 const addOne = (arr) => {
   // Solution code here...
   let newArr = [];
-  arr.forEach(number => {
+  arr.forEach(number=> {
     newArr.push(number++);
   });
   return newArr;
@@ -149,7 +149,6 @@ const createList = (availableItems) => {
 };
 
 
-
 /* ------------------------------------------------------------------------------------------------
 STRETCH - CHALLENGE 7
 
@@ -166,24 +165,6 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
-
-  let arrFunction = [];
-  arr.forEach(number => {
-    if (number % 3 === 0 & number % 5 === 0) {
-      arrFunction.push('Fizz Buzz');
-    }
-    else if (number % 3 === 0) {
-      arrFunction.push('Fizz');
-    }
-    else if (number % 5 === 0) {
-      arrFunction.push('Buzz');
-    }
-    else {
-      arrFunction.push(number);
-    }
-  });
-  return arrFunction;
-};
 
 
 /* ------------------------------------------------------------------------------------------------
