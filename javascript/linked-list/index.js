@@ -20,7 +20,7 @@ class LinkedList {
         this.head = addNode;
       }
     } catch (err) {
-      console.error(err);
+      console.error(err)
     }
 
   }
@@ -41,7 +41,7 @@ class LinkedList {
       }
       return false;
     } catch (err) {
-      console.error(err);
+      console.error(err)
     }
 
   }
@@ -62,5 +62,4 @@ class LinkedList {
     return outPut;
   }
 }
-
 module.exports = LinkedList;
