@@ -14,7 +14,7 @@ write the problem domaine and the algoritheme of the code then write the code st
 
 ### Whiteboard Process
 
-![lab6](./lab6.jpg)
+![lab6-2](./lab6-2.jpg)
 
 
 
