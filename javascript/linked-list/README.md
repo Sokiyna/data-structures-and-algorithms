@@ -2,16 +2,23 @@
 
 ### Challenge
 
-Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
+We Ziped two linked lists.
 
-Added new functions to append a new value, append before append after.
+
 
 ### Approach & Efficiency
 
-write the problem domaine and the algoritheme of the code then write the code stipe by stipe and test it.
+insertAfter(),insertBefore(),append
 
+write the code first by whiel loop and then go and make the test
+
+big O of time o(n)
+
+big O of space o(1)
+
+create linked list to return value from the end zip lists Arguments: 2 linked lists Return: Linked List, zipped as noted below
 
 
 ### Whiteboard Process
 
-![lab7w](./lab7w.jpg)
+![lab8](./lab8.png)
