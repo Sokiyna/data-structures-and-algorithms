@@ -11,13 +11,13 @@ describe('Hashtable test ...', () => {
     expect(hash.get('Sokiyna')).toEqual(["97"]);
   });
   it('Successfully returns null for a key that does not exist in the hashtable ', () => {
-    expect(hash.get('Sokiynaz')).toBe(null);
+    expect(hash.get('Sokiyna')).toBe(null);
   });
   it('Successfully handle a collision within the hashtable ', () => {
-    expect(hash.add('amor','93')).toBe('93');
+    expect(hash.add('lolo','93')).toBe('93');
   })
   it('Successfully retrieve a value from a bucket within the hashtable that has a collision ', () => {
-    hash.add('aomr','37');
+    hash.add('lolo','37');
     expect(hash.get('Sokiyna')).toEqual(["97"]);
   });
   test('Successfully hash a key to an in-range value ', () => {
